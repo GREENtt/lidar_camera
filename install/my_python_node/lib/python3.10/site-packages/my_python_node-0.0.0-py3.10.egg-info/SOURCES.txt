@@ -1,0 +1,19 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_python_node/my_python_node.egg-info/PKG-INFO
+../../build/my_python_node/my_python_node.egg-info/SOURCES.txt
+../../build/my_python_node/my_python_node.egg-info/dependency_links.txt
+../../build/my_python_node/my_python_node.egg-info/entry_points.txt
+../../build/my_python_node/my_python_node.egg-info/requires.txt
+../../build/my_python_node/my_python_node.egg-info/top_level.txt
+../../build/my_python_node/my_python_node.egg-info/zip-safe
+my_python_node/__init__.py
+my_python_node/listener.py
+my_python_node/listener1 (copy 1).py
+my_python_node/listener1.py
+my_python_node/listener_1.py
+resource/my_python_node
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,5 @@
+  File "/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener.py", line 117
+    break    
+    ^^^^^
+SyntaxError: 'break' outside loop
+

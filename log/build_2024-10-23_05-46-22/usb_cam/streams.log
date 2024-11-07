@@ -1,0 +1,98 @@
+[0.560s] Invoking command in '/home/zxq/laser_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/my_python_node:/opt/ros/humble:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/zxq/laser_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/zxq/laser_ws/install/usb_cam
+[0.599s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.129s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.133s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.142s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.226s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.228s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.866s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.874s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.889s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.897s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.898s] -- Configured cppcheck include dirs: /home/zxq/laser_ws/src/usb_cam/include
+[1.899s] -- Configured cppcheck exclude dirs and/or files: 
+[1.905s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.905s] -- Configured cpplint exclude dirs and/or files: 
+[1.906s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.909s] -- Added test 'lint_cmake' to check CMake code style
+[1.910s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.918s] -- Added test 'uncrustify' to check C / C++ code style
+[1.918s] -- Configured uncrustify additional arguments: 
+[1.919s] -- Added test 'xmllint' to check XML markup files
+[1.922s] -- Configuring done
+[1.975s] -- Generating done
+[1.979s] -- Build files have been written to: /home/zxq/laser_ws/build/usb_cam
+[1.997s] Invoked command in '/home/zxq/laser_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/my_python_node:/opt/ros/humble:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/zxq/laser_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/zxq/laser_ws/install/usb_cam
+[2.000s] Invoking command in '/home/zxq/laser_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/my_python_node:/opt/ros/humble:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zxq/laser_ws/build/usb_cam -- -j8 -l8
+[2.092s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[2.095s] [35m[1mConsolidate compiler generated dependencies of target usb_cam[0m
+[2.109s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[2.111s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node_exe[0m
+[2.115s] [ 14%] Built target usb_cam
+[2.123s] [ 28%] Built target gtest
+[2.151s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node[0m
+[2.159s] [ 42%] Built target gtest_main
+[2.181s] [ 57%] Built target usb_cam_node_exe
+[2.195s] [35m[1mConsolidate compiler generated dependencies of target test_usb_cam_utils[0m
+[2.196s] [35m[1mConsolidate compiler generated dependencies of target test_pixel_formats[0m
+[2.204s] [ 71%] Built target usb_cam_node
+[2.238s] [ 85%] Built target test_pixel_formats
+[2.251s] [100%] Built target test_usb_cam_utils
+[2.286s] Invoked command in '/home/zxq/laser_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/my_python_node:/opt/ros/humble:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zxq/laser_ws/build/usb_cam -- -j8 -l8
+[2.368s] Invoking command in '/home/zxq/laser_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/my_python_node:/opt/ros/humble:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zxq/laser_ws/build/usb_cam
+[2.395s] -- Install configuration: ""
+[2.395s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[2.396s] -- Installing: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[2.396s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[2.396s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/lib/usb_cam/show_image.py
+[2.396s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/lib/libusb_cam.so
+[2.397s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/lib/libusb_cam_node.so
+[2.397s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include
+[2.397s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam
+[2.397s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[2.397s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/constants.hpp
+[2.398s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats
+[2.398s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[2.398s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[2.398s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[2.398s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[2.398s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[2.398s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[2.399s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[2.399s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[2.399s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[2.399s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[2.399s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/utils.hpp
+[2.399s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[2.399s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/lib/libusb_cam_node.so
+[2.399s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/launch
+[2.399s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[2.400s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[2.400s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[2.400s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/config
+[2.400s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[2.400s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[2.400s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[2.400s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[2.400s] -- Installing: /home/zxq/laser_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[2.400s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[2.401s] -- Installing: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[2.401s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[2.401s] -- Installing: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[2.401s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[2.401s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[2.401s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[2.402s] -- Installing: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[2.402s] -- Installing: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/package.dsv
+[2.402s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[2.402s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[2.402s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[2.402s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.402s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.402s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[2.402s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[2.402s] -- Up-to-date: /home/zxq/laser_ws/install/usb_cam/share/usb_cam/package.xml
+[2.407s] Invoked command in '/home/zxq/laser_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/my_python_node:/opt/ros/humble:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zxq/laser_ws/build/usb_cam

@@ -1,0 +1,12 @@
+[0.462s] Invoking command in '/home/zxq/laser_ws/build/usb_cam': /usr/bin/cmake /home/zxq/laser_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zxq/laser_ws/install/usb_cam
+[0.511s] -- Configuring incomplete, errors occurred!
+[0.511s] See also "/home/zxq/laser_ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
+[0.511s] [31mCMake Error at CMakeLists.txt:10 (if):
+[0.511s]   if given arguments:
+[0.512s] 
+[0.512s]     "EQUAL" "2"
+[0.512s] 
+[0.512s]   Unknown arguments specified
+[0.512s] 
+[0.512s] [0m
+[0.516s] Invoked command in '/home/zxq/laser_ws/build/usb_cam' returned '1': /usr/bin/cmake /home/zxq/laser_ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zxq/laser_ws/install/usb_cam

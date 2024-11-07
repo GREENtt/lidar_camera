@@ -1,0 +1,5 @@
+  File "/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener.py", line 190
+    cv2.putText(img, 'FPS:'+f{str(t)}", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2, cv2.LINE_AA)
+                                     ^
+SyntaxError: unterminated string literal (detected at line 190)
+

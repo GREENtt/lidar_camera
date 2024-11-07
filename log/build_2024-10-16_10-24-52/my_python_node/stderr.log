@@ -1,0 +1,5 @@
+  File "/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener.py", line 138
+    cv2.imwrite(imgspath +'/' str(i) + ".jpg", frame)#将拍摄到的图片保存在imgs文件夹中
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

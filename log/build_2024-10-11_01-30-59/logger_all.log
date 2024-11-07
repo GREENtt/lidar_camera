@@ -1,0 +1,307 @@
+[0.223s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.224s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fa5587580>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa5586e00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa5586e00>>, mixin_verb=('build',))
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.577s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zxq/laser_ws'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_node) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_node) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_node) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_node) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_node) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_node) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_node) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_node) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_python_node) by extension 'ros'
+[0.617s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_python_node' with type 'ros.ament_python' and name 'my_python_node'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rs_driver) by extension 'python'
+[0.622s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rs_driver' with type 'cmake' and name 'rs_driver'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ros'
+[0.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_msg' with type 'ros.ament_cmake' and name 'rslidar_msg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ros'
+[0.632s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_sdk' with type 'ros.ament_cmake' and name 'rslidar_sdk'
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.666s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_python_node' build argument 'cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_python_node' build argument 'cmake_target' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_python_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_python_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_python_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_python_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_python_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_python_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'my_python_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.728s] DEBUG:colcon.colcon_core.verb:Building package 'my_python_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zxq/laser_ws/build/my_python_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zxq/laser_ws/install/my_python_node', 'merge_install': False, 'path': '/home/zxq/laser_ws/src/my_python_node', 'symlink_install': False, 'test_result_base': None}
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rs_driver' build argument 'cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rs_driver' build argument 'cmake_target' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rs_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rs_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rs_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rs_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rs_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rs_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rs_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.729s] DEBUG:colcon.colcon_core.verb:Building package 'rs_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zxq/laser_ws/build/rs_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zxq/laser_ws/install/rs_driver', 'merge_install': False, 'path': '/home/zxq/laser_ws/src/rs_driver', 'symlink_install': False, 'test_result_base': None}
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.730s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zxq/laser_ws/build/rslidar_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zxq/laser_ws/install/rslidar_msg', 'merge_install': False, 'path': '/home/zxq/laser_ws/src/rslidar_msg', 'symlink_install': False, 'test_result_base': None}
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.730s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zxq/laser_ws/build/rslidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zxq/laser_ws/install/rslidar_sdk', 'merge_install': False, 'path': '/home/zxq/laser_ws/src/rslidar_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.730s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.732s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.732s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zxq/laser_ws/src/rslidar_msg' with build type 'ament_cmake'
+[0.733s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zxq/laser_ws/src/rslidar_msg'
+[0.736s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.745s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zxq/laser_ws/src/my_python_node' with build type 'ament_python'
+[0.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_python_node', 'ament_prefix_path')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/hook/ament_prefix_path.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/hook/ament_prefix_path.dsv'
+[0.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/hook/ament_prefix_path.sh'
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.768s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zxq/laser_ws/src/rs_driver'
+[0.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxq/laser_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zxq/laser_ws/build/rslidar_msg -- -j8 -l8
+[1.282s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zxq/laser_ws/src/my_python_node'
+[1.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxq/laser_ws/build/rs_driver': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zxq/laser_ws/build/rs_driver -- -j8 -l8
+[1.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxq/laser_ws/build/rs_driver' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zxq/laser_ws/build/rs_driver -- -j8 -l8
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxq/laser_ws/build/rs_driver': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zxq/laser_ws/build/rs_driver
+[1.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rs_driver)
+[1.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxq/laser_ws/build/rs_driver' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zxq/laser_ws/build/rs_driver
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rs_driver' for CMake module files
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rs_driver' for CMake config files
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rs_driver/bin'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rs_driver/lib/pkgconfig/rs_driver.pc'
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rs_driver/lib/python3.10/site-packages'
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rs_driver/bin'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rs_driver/share/rs_driver/package.ps1'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxq/laser_ws/install/rs_driver/share/rs_driver/package.dsv'
+[1.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rs_driver/share/rs_driver/package.sh'
+[1.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rs_driver/share/rs_driver/package.bash'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rs_driver/share/rs_driver/package.zsh'
+[1.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxq/laser_ws/install/rs_driver/share/colcon-core/packages/rs_driver)
+[1.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxq/laser_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zxq/laser_ws/build/rslidar_msg -- -j8 -l8
+[1.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxq/laser_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zxq/laser_ws/build/rslidar_msg
+[1.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg' for CMake module files
+[1.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxq/laser_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zxq/laser_ws/build/rslidar_msg
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg' for CMake config files
+[1.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[1.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/lib'
+[1.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/bin'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[1.968s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/lib/python3.10/site-packages'
+[1.968s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/bin'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.sh'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.bash'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[1.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxq/laser_ws/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[2.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg' for CMake module files
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg' for CMake config files
+[2.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[2.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[2.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/lib'
+[2.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/bin'
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/lib/python3.10/site-packages'
+[2.135s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_msg/bin'
+[2.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.sh'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.bash'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[2.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxq/laser_ws/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[2.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zxq/laser_ws/src/rslidar_sdk' with build type 'ament_cmake'
+[2.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zxq/laser_ws/src/rslidar_sdk'
+[2.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.144s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxq/laser_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/zxq/laser_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxq/laser_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxq/laser_ws/build/rslidar_sdk -- -j8 -l8
+[2.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxq/laser_ws/src/my_python_node': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/zxq/laser_ws/build/my_python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_python_node build --build-base /home/zxq/laser_ws/build/my_python_node/build install --record /home/zxq/laser_ws/build/my_python_node/install.log --single-version-externally-managed install_data
+[2.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxq/laser_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/zxq/laser_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxq/laser_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxq/laser_ws/build/rslidar_sdk -- -j8 -l8
+[2.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zxq/laser_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/zxq/laser_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxq/laser_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zxq/laser_ws/build/rslidar_sdk
+[2.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[2.589s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk' for CMake module files
+[2.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxq/laser_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/zxq/laser_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxq/laser_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zxq/laser_ws/build/rslidar_sdk
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk' for CMake config files
+[2.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[2.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/lib'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/bin'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/lib/python3.10/site-packages'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/bin'
+[2.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[2.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxq/laser_ws/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[2.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk' for CMake module files
+[2.684s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk' for CMake config files
+[2.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[2.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[2.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/lib'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/bin'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/lib/python3.10/site-packages'
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/rslidar_sdk/bin'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[2.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[2.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[2.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[2.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[2.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxq/laser_ws/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/my_python_node' for CMake module files
+[2.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zxq/laser_ws/src/my_python_node' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/zxq/laser_ws/build/my_python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_python_node build --build-base /home/zxq/laser_ws/build/my_python_node/build install --record /home/zxq/laser_ws/build/my_python_node/install.log --single-version-externally-managed install_data
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/my_python_node' for CMake config files
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/my_python_node/lib'
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/my_python_node/bin'
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/my_python_node/lib/pkgconfig/my_python_node.pc'
+[2.846s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages'
+[2.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_python_node', 'pythonpath')
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/hook/pythonpath.ps1'
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/hook/pythonpath.dsv'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/hook/pythonpath.sh'
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/zxq/laser_ws/install/my_python_node/bin'
+[2.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_python_node)
+[2.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/package.ps1'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/package.dsv'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/package.sh'
+[2.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/package.bash'
+[2.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/zxq/laser_ws/install/my_python_node/share/my_python_node/package.zsh'
+[2.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zxq/laser_ws/install/my_python_node/share/colcon-core/packages/my_python_node)
+[2.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.866s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.881s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.882s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.882s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.882s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.884s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[2.884s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.885s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zxq/laser_ws/install/local_setup.ps1'
+[2.889s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zxq/laser_ws/install/_local_setup_util_ps1.py'
+[2.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zxq/laser_ws/install/setup.ps1'
+[2.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zxq/laser_ws/install/local_setup.sh'
+[2.897s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zxq/laser_ws/install/_local_setup_util_sh.py'
+[2.899s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zxq/laser_ws/install/setup.sh'
+[2.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zxq/laser_ws/install/local_setup.bash'
+[2.903s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zxq/laser_ws/install/setup.bash'
+[2.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zxq/laser_ws/install/local_setup.zsh'
+[2.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zxq/laser_ws/install/setup.zsh'

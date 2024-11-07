@@ -1,0 +1,27 @@
+[1.264s] Invoking command in '/home/zxq/laser_ws/src/my_python_node': PYTHONPATH=/home/zxq/laser_ws/build/my_python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_python_node build --build-base /home/zxq/laser_ws/build/my_python_node/build install --record /home/zxq/laser_ws/build/my_python_node/install.log --single-version-externally-managed install_data
+[1.584s] running egg_info
+[1.585s] writing ../../build/my_python_node/my_python_node.egg-info/PKG-INFO
+[1.586s] writing dependency_links to ../../build/my_python_node/my_python_node.egg-info/dependency_links.txt
+[1.587s] writing entry points to ../../build/my_python_node/my_python_node.egg-info/entry_points.txt
+[1.587s] writing requirements to ../../build/my_python_node/my_python_node.egg-info/requires.txt
+[1.588s] writing top-level names to ../../build/my_python_node/my_python_node.egg-info/top_level.txt
+[1.592s] reading manifest file '../../build/my_python_node/my_python_node.egg-info/SOURCES.txt'
+[1.593s] writing manifest file '../../build/my_python_node/my_python_node.egg-info/SOURCES.txt'
+[1.594s] running build
+[1.594s] running build_py
+[1.595s] copying my_python_node/listener.py -> /home/zxq/laser_ws/build/my_python_node/build/lib/my_python_node
+[1.595s] running install
+[1.596s] running install_lib
+[1.597s] copying /home/zxq/laser_ws/build/my_python_node/build/lib/my_python_node/listener.py -> /home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node
+[1.597s] byte-compiling /home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener1 (copy 1).py to listener1 (copy 1).cpython-310.pyc
+[1.600s] Sorry: IndentationError: unexpected indent (listener1 (copy 1).py, line 180)
+[1.601s] byte-compiling /home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener.py to listener.cpython-310.pyc
+[1.603s] Sorry: IndentationError: unexpected indent (listener.py, line 180)
+[1.603s] running install_data
+[1.603s] running install_egg_info
+[1.606s] removing '/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.607s] Copying ../../build/my_python_node/my_python_node.egg-info to /home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node-0.0.0-py3.10.egg-info
+[1.608s] running install_scripts
+[1.647s] Installing listener script to /home/zxq/laser_ws/install/my_python_node/lib/my_python_node
+[1.648s] writing list of installed files to '/home/zxq/laser_ws/build/my_python_node/install.log'
+[1.727s] Invoked command in '/home/zxq/laser_ws/src/my_python_node' returned '0': PYTHONPATH=/home/zxq/laser_ws/build/my_python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_python_node build --build-base /home/zxq/laser_ws/build/my_python_node/build install --record /home/zxq/laser_ws/build/my_python_node/install.log --single-version-externally-managed install_data

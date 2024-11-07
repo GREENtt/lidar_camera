@@ -1,0 +1,27 @@
+[1.148s] Invoking command in '/home/zxq/laser_ws/src/my_python_node': PYTHONPATH=/home/zxq/laser_ws/build/my_python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_python_node build --build-base /home/zxq/laser_ws/build/my_python_node/build install --record /home/zxq/laser_ws/build/my_python_node/install.log --single-version-externally-managed install_data
+[1.430s] running egg_info
+[1.431s] writing ../../build/my_python_node/my_python_node.egg-info/PKG-INFO
+[1.432s] writing dependency_links to ../../build/my_python_node/my_python_node.egg-info/dependency_links.txt
+[1.433s] writing entry points to ../../build/my_python_node/my_python_node.egg-info/entry_points.txt
+[1.433s] writing requirements to ../../build/my_python_node/my_python_node.egg-info/requires.txt
+[1.433s] writing top-level names to ../../build/my_python_node/my_python_node.egg-info/top_level.txt
+[1.435s] reading manifest file '../../build/my_python_node/my_python_node.egg-info/SOURCES.txt'
+[1.437s] writing manifest file '../../build/my_python_node/my_python_node.egg-info/SOURCES.txt'
+[1.437s] running build
+[1.438s] running build_py
+[1.438s] copying my_python_node/listener.py -> /home/zxq/laser_ws/build/my_python_node/build/lib/my_python_node
+[1.439s] copying my_python_node/listener_1.py -> /home/zxq/laser_ws/build/my_python_node/build/lib/my_python_node
+[1.439s] running install
+[1.439s] running install_lib
+[1.440s] copying /home/zxq/laser_ws/build/my_python_node/build/lib/my_python_node/listener.py -> /home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node
+[1.440s] copying /home/zxq/laser_ws/build/my_python_node/build/lib/my_python_node/listener_1.py -> /home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node
+[1.441s] byte-compiling /home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener.py to listener.cpython-310.pyc
+[1.443s] byte-compiling /home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener_1.py to listener_1.cpython-310.pyc
+[1.445s] running install_data
+[1.445s] running install_egg_info
+[1.448s] removing '/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.449s] Copying ../../build/my_python_node/my_python_node.egg-info to /home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node-0.0.0-py3.10.egg-info
+[1.450s] running install_scripts
+[1.486s] Installing listener script to /home/zxq/laser_ws/install/my_python_node/lib/my_python_node
+[1.487s] writing list of installed files to '/home/zxq/laser_ws/build/my_python_node/install.log'
+[1.555s] Invoked command in '/home/zxq/laser_ws/src/my_python_node' returned '0': PYTHONPATH=/home/zxq/laser_ws/build/my_python_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_python_node build --build-base /home/zxq/laser_ws/build/my_python_node/build install --record /home/zxq/laser_ws/build/my_python_node/install.log --single-version-externally-managed install_data

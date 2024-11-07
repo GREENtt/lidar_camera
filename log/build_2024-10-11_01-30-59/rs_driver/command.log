@@ -1,0 +1,4 @@
+Invoking command in '/home/zxq/laser_ws/build/rs_driver': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zxq/laser_ws/build/rs_driver -- -j8 -l8
+Invoked command in '/home/zxq/laser_ws/build/rs_driver' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/zxq/laser_ws/build/rs_driver -- -j8 -l8
+Invoking command in '/home/zxq/laser_ws/build/rs_driver': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zxq/laser_ws/build/rs_driver
+Invoked command in '/home/zxq/laser_ws/build/rs_driver' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/zxq/laser_ws/build/rs_driver

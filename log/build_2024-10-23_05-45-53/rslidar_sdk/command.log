@@ -1,0 +1,1 @@
+Invoking command in '/home/zxq/laser_ws/build/rslidar_sdk': /usr/bin/cmake /home/zxq/laser_ws/src/rslidar_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zxq/laser_ws/install/rslidar_sdk

@@ -1,0 +1,30 @@
+[0.021s] Invoking command in '/home/zxq/laser_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/zxq/laser_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxq/laser_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxq/laser_ws/build/rslidar_sdk -- -j8 -l8
+[0.286s] [100%] Built target rslidar_sdk_node
+[0.327s] Invoked command in '/home/zxq/laser_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/zxq/laser_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxq/laser_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zxq/laser_ws/build/rslidar_sdk -- -j8 -l8
+[0.379s] Invoking command in '/home/zxq/laser_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/zxq/laser_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxq/laser_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zxq/laser_ws/build/rslidar_sdk
+[0.412s] -- Install configuration: "Release"
+[0.413s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[0.414s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/launch
+[0.415s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/launch/config.yaml
+[0.416s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[0.416s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[0.416s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[0.417s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+[0.417s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[0.418s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[0.418s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[0.419s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[0.419s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[0.419s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[0.420s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[0.420s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[0.420s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[0.421s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[0.421s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[0.422s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[0.422s] -- Installing: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[0.422s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[0.423s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[0.423s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[0.423s] -- Up-to-date: /home/zxq/laser_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[0.433s] Invoked command in '/home/zxq/laser_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zxq/laser_ws/install/rslidar_msg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/zxq/laser_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zxq/laser_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zxq/laser_ws/build/rslidar_sdk
