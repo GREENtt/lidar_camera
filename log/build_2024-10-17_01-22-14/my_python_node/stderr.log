@@ -1,5 +1,0 @@
-  File "/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener.py", line 165
-    thread_camera = threading.Thread(target=read_camera, args=(f"{folder_name}")
-                                    ^
-SyntaxError: '(' was never closed
-

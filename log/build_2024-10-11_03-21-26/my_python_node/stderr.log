@@ -1,5 +1,0 @@
-  File "/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener.py", line 95
-    cv2.circle(img, (x,y), 2, color=[255,255,255], -1)
-                                                     ^
-SyntaxError: positional argument follows keyword argument
-

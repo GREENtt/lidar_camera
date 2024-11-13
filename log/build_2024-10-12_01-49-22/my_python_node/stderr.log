@@ -1,5 +1,0 @@
-  File "/home/zxq/laser_ws/install/my_python_node/lib/python3.10/site-packages/my_python_node/listener.py", line 37
-    point_list.append([data[0],data[1],data[2],data[3])
-                                                      ^
-SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
-

@@ -1,6 +1,0 @@
-Invoking command in '/home/zxq/laser_ws/build/rs_driver': /usr/bin/cmake /home/zxq/laser_ws/src/rs_driver -DCMAKE_INSTALL_PREFIX=/home/zxq/laser_ws/install/rs_driver
-Invoked command in '/home/zxq/laser_ws/build/rs_driver' returned '0': /usr/bin/cmake /home/zxq/laser_ws/src/rs_driver -DCMAKE_INSTALL_PREFIX=/home/zxq/laser_ws/install/rs_driver
-Invoking command in '/home/zxq/laser_ws/build/rs_driver': /usr/bin/cmake --build /home/zxq/laser_ws/build/rs_driver -- -j8 -l8
-Invoked command in '/home/zxq/laser_ws/build/rs_driver' returned '0': /usr/bin/cmake --build /home/zxq/laser_ws/build/rs_driver -- -j8 -l8
-Invoking command in '/home/zxq/laser_ws/build/rs_driver': /usr/bin/cmake --install /home/zxq/laser_ws/build/rs_driver
-Invoked command in '/home/zxq/laser_ws/build/rs_driver' returned '0': /usr/bin/cmake --install /home/zxq/laser_ws/build/rs_driver
