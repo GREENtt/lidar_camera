@@ -1,3 +1,0 @@
-[console_scripts]
-listener = my_python_node.listener:main
-
